@@ -20,7 +20,7 @@ Priority can help you sort assets in the page. Based on their dependency,  asset
 
 ```javascript
 var path = require('path');
-var PageAssetsWebpackPlugin = require('../..');
+var PageAssetsWebpackPlugin = require('page-assets-webpack-plugin');
 
 module.exports = {
   entry: './index.js',
@@ -68,7 +68,7 @@ webpack.config.js
 var path = require('path');
 var YAML = require('yamljs');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
-var PageAssetsWebpackPlugin = require('../..');
+var PageAssetsWebpackPlugin = require('page-assets-webpack-plugin');
 
 module.exports = {
   entry: './index.js',
