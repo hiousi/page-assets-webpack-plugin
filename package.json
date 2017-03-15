@@ -1,0 +1,27 @@
+{
+  "name": "page-assets-webpack-plugin",
+  "version": "0.0.1",
+  "description": "output a file describing assets to be embeded in HTML pages",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hiousi/page-assets-webpack-plugin.git"
+  },
+  "scripts": {
+    "clean": "rimraf examples/*/dist",
+    "build:example": "cd examples && node buildExample.js",
+    "test": "echo \" no test\" && exit 1"
+  },
+  "author": "@hiousi",
+  "license": "MIT",
+  "dependencies": {
+    "toposort": "^1.0.3"
+  },
+  "devDependencies": {
+    "css-loader": "^0.27.2",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "rimraf": "latest",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.2.1"
+  }
+}
